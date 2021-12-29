@@ -1,0 +1,36 @@
+:root{
+    --bg-button: #f0f0f0;
+    --border-button: 1px solid #888;
+    --bg-hover: #ccc;
+    --bg-op: rgb(255, 186, 95);
+}
+
+.button{
+    font-size: 2.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: var(--bg-hover);
+}
+
+.triple {
+    grid-column: span 4;
+    font-size: 2.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    cursor: pointer;
+}
+
+.triple:active{
+    background-color: var(--bg-hover);
+}
+
