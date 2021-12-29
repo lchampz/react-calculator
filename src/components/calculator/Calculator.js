@@ -53,7 +53,7 @@ export default () => {
             setOperation(eq ? null : operation)
             setPosition(eq ? 0 : 1)
             setClear(!eq)
-            setValor(valor)
+            setValor(valor.toFixed(2))
         }
 
     }
